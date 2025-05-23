@@ -59,6 +59,38 @@ public class Main {
 
                      if(command.equals("no")) {
                         System.out.println("\nYou hear a step behind you and see an elder dragon appear in front of you. You have your spear and potion, or you can fight and run. What do you choose? (spear,potion,fight,run)");
+                        command = scan.next();
+
+                        if(command.equals("run")) {
+                           System.out.println("\n You try to run and get burnt to a crisp. \n\n\nBARABEQUE ENDING");
+                        }
+
+                        if(command.equals("fight")) {
+                           System.out.println("You have two weapons...why are you just fighting..? You run at the dragon and jump for a sueprman punch; their tail nails you and you flatten to the floor, dead. \n\n\n WHACK-A-MOLE ENDING" );
+                        }
+
+                        if(command.equals("spear")) {
+                           System.out.println("You charge at the dragon with your spear. You dodge it's flame and jump into the air, do you throw the spear at its eye or slam it down?(throw/slam) \n");
+                           command = scan.next();
+
+                           if(command.equals("throw")){
+                              System.out.println("You throw the spear, nailing the dragon in the eye. Although it worked and impaired the dragon, you now don't have a spear. You open your potion, and the orc appears. You both charge the dragon, and the dragon attacks you, because his shot out eye cant see the green jugguarnat. As the tooth of the dragon sinks into you, the dragons head explodes from the orcs overwhelming force. The orc says you did good as your eyes finally close. \n\n\n SACRIFICE ENDING ");
+                           }
+
+                           if(command.equals("slam")) {
+                              System.out.println("You slam down your spear into the dragon, twisting it and pushing it farther down to ensure it's demise. You get back down, take your loot. And continue back to the village, allowing for their wealth. You end up making inflation outrageous and messing up the economy, messing up the poor and helping the rich. But the orc is still happy for you slaying the best. \n\n\n INFLATION ENDING");
+                           }
+                        }
+
+                        if(command.equals("potion")) {
+
+                        }
+
+
+
+
+
+                        
                      }
                      
                   }
